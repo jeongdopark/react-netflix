@@ -1,0 +1,39 @@
+
+
+.nav-container{
+    position : fixed;
+    background-color : black;
+    transition : 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.logo-container{
+    width : 100px;
+    cursor: pointer;
+    position : fixed;
+    top : 15px;
+    left : 15px;
+}
+
+.user-container{
+    width : 50px;
+    position : fixed;
+    top : 15px;
+    right : 15px;
+}
+
+.show{
+    background-color : white;
+}
+
+
+.nav__input{
+    position : fixed;
+    left : 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    color : black;
+    border : none;
+    padding : 5px;
+}
